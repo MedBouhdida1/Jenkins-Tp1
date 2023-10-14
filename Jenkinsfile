@@ -20,7 +20,7 @@ pipeline {
             steps {
              script{
                 sh 'echo "hello" | su'  
-                sh 'docker build -t firstspring .'
+                sh 'sudo docker build -t firstspring .'
              }
             }
         }
