@@ -26,7 +26,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 script {
-                    sh 'docker run -d -p 8080:8080 firstspring'
+                    sh 'docker run -d -p 8084:8084 firstspring'
                 }
             }
         }
