@@ -19,7 +19,8 @@ pipeline {
         stage('Build docker image') {
             steps {
              script{
-                sh 'echo "hello" | sudo -S docker build -t firstspring .'
+                sh 'echo "hello" | su'  
+                sh 'docker build -t firstspring .'
              }
             }
         }
