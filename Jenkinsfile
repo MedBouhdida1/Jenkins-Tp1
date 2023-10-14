@@ -1,4 +1,4 @@
-pipeline {
+opipeline {
     agent any
   
     stages {
@@ -19,8 +19,7 @@ pipeline {
         stage('Build docker image') {
             steps {
              script{
-                sh 'echo "hello" | su'  
-                sh 'sudo docker build -t firstspring .'
+                sh 'echo "hello" | sudo -S docker build -t firstspring .'
              }
             }
         }
