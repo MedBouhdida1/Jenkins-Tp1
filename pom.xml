@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.4</version>
+        <version>2.6.0</version> <!-- Update to the latest Spring Boot version -->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -14,10 +14,11 @@
     <name>demo</name>
     <description>demo</description>
     <properties>
-        <!-- Change the Java version to 11 -->
-        <java.version>11</java.version>
+        <!-- Change the Java version to 17 -->
+        <java.version>17</java.version>
     </properties>
     <dependencies>
+        <!-- Your dependencies remain the same -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -36,6 +37,7 @@
     </dependencies>
     <build>
         <plugins>
+            <!-- Your build configuration remains the same -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
