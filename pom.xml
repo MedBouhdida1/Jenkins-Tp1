@@ -14,8 +14,8 @@
     <name>demo</name>
     <description>demo</description>
     <properties>
-        <!-- Change the Java version to 17 -->
-        <java.version>17</java.version>
+        <!-- Change the Java version to 11 -->
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <!-- Your dependencies remain the same -->
